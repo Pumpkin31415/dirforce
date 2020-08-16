@@ -17,4 +17,4 @@ if r.status_code <= 399 or r.status_code >=500:
             if r.status_code <=399 or r.status_code >=500:
                 print('/' + eachLine + ' returned code: ' + str(r.status_code))
 else: 
-        print('ERROR: URL MAY NOT BE VALID. URL STATUS CODE: ' + str(r.status_code)  + str(r.status_code))
+        print('ERROR: URL MAY NOT BE VALID. URL STATUS CODE: ' + str(r.status_code))
