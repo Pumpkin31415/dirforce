@@ -1,7 +1,7 @@
 import requests
 
 #create a variable to store the url
-url = input('Enter the url in https://example.com format : ')
+url = input('Enter the url in https://www.example.com format : ')
 #have the user specify the location of the file
 fileLocation = input('Enter the location of the directories list : ')
 #output what we are doing
